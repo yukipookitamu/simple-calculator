@@ -1,23 +1,27 @@
 p {
+    font-family: 'Press Start 2P';
     margin: 0;
 }
 
 button {
+    font-family: 'Press Start 2P';
     height: 50px;
-    width: 70px;
+    width: 90px;
     border: solid 2px #333333;
     border-radius: 25px;
 }
 
-.calculator {
+.calculator-body {
     display: flex;
     flex-direction: column;
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     background-color: gray;
-    width: 300px;
-    padding: 20px;
+    width: 400px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: 400px;
     align-items: center;
     border: solid 3px #333333;
@@ -30,12 +34,12 @@ button {
     background-color: white;
     height: 49px;
     border-radius: 10px;
-    width: 300px;
+    width: 350px;
+    margin-left: 50px;
 }
 
 .res {
     padding: 15px;
-    font-family: Roboto, Arial;
     font-weight: bold;
 }
 
@@ -51,7 +55,7 @@ button {
 
 .numpad {
     display: grid;
-    grid-template-columns: 70px 70px 70px;
+    grid-template-columns: 90px 90px 90px;
     column-gap: 10px;
     row-gap: 10px;
 }
@@ -74,9 +78,11 @@ button {
     width: 300px;
     align-items: center;
     justify-content: center;
+    margin-left: 100px;
 }
 
 .calculator-name {
+    flex: 1;
     padding: 0;
     font-family: 'Press Start 2P';
     font-size: 20px;
@@ -87,6 +93,7 @@ button {
 }
 
 .skull-img {
+    flex: 1;
     height: 120px;
     margin: 0;
 }
